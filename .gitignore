@@ -1,0 +1,8 @@
+build/
+dist/
+out/
+.vs/
+.vscode/
+CMakeUserPresets.json
+*.log
+*.zip

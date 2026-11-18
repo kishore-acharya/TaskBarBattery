@@ -1,0 +1,4 @@
+// MinGW/clang builds embed the manifest through a resource; MSVC uses app.manifest directly.
+#include <winuser.h>
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
